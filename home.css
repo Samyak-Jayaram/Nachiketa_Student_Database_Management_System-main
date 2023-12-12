@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative; 
+}
+
+
+header {
+    background-color: #006ab1;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+h2 {
+    color: #3498db;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #3498db;
+    color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #ecf0f1;
+}
+
+button {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: block;
+    margin: 20px auto;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #219653;
+}
+
+#logoutButton {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.5em;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #logoutButton {
+        top: 10px;
+        right: 10px;
+    }
+}

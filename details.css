@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #006ab1;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    color: #3498db;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+#logoutButton {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+
+.subtask-h1
+{
+ position: relative;
+ top:5px;   
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        padding: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
